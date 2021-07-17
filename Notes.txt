@@ -1,0 +1,33 @@
+Steps to add code to gitHub:
+
+    git --version === > To check the version of the git installed.
+
+    Steps:
+        1. git init
+
+            1.1 ==> If possible change the branch to master
+    
+        2. git remote add origin (url of the repository created)
+
+            git remote remove origin==> agar galti se galat url dal diya to remove karne ke liye.
+
+          2.1 If you created the readme.md and .gitignore while creating a repository, then 
+                to fetch them from cloud
+
+                git pull origin master
+
+        3. git add .(Tells us about the changes performed)
+        4. git status ==> To check the status(Not compulsory)
+        5. git commit -m "message"
+        6. git push origin master
+
+Note :  
+
+    1. If you want to upload a code which already has readme.md and .gitignore file then don't create them while making a repository.
+        Otherwise error will be created.
+
+    2. if there are two folders that have different node modules then they cannot be uploaded in the same repository.
+
+    3. If you by chance change the name of the gitHub repository, then follow the same above steps.
+
+        pull statement will also be required.
